@@ -6,6 +6,8 @@ on:
     paths:
     - 'src/EngagementOrganizer.API/**'
     
+  workflow_dispatch:
+    
 jobs:
   Build-Backend:
 
